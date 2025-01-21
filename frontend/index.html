@@ -1,27 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Projet</title>
-</head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  </head>
 
-<body>
-    <div class="container">
-        <h1 class="title">Tableau de Bord</h1>
-        <div class="box">
-          <p>Progrès de la session : 75%</p>
-          <button class="button is-primary">Commencer une session</button>
+  <body>
+    <nav class="navbar is-black">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="Logo_BrainboostVR.jpg" alt="Logo" width="110" height="110">
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="dashboard.html">Tableau de bord</a>
+          <a class="navbar-item" href="patients.html">Patients</a>
+          <a class="navbar-item" href="sessions.html">Réservations</a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="logout.html">Déconnexion</a>
         </div>
       </div>
+    </nav>
+    
+  <section class="section is-medium">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Bienvenue sur Mon projet VR
+      </h1>
+      <p class="subtitle">
+        La future application d'apprentissage pour <strong>les personnes âgées</strong> !
+      </p>
 
-      <nav class="navbar">
-        <div class="navbar-menu">
-          <a class="navbar-item" href="index.html">Tableau de Bord</a>
-          <a class="navbar-item" href="patients.html">Patients</a>
-        </div>
-      </nav>
-      
-      
-</body>
+      <img src="istockphoto-1410769471-612x612.jpg">
+    </div>
+  </section>
+
+  <section class="section is-medium">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">Description du projet :</h1>
+        <h2 class="subtitle">Mon projet fait suite à un constat après avoir suivi et conseillé des personnes âgées dans le domaine numérique.
+          Je les ai aidés à avoir confiance et progresser dans l'utilisation de différents outils (ordis, tablettes, smartphones), ainsi que pour les démarches administratives.
+
+        <br>
+        <br>
+          Aujourd'hui j'ai envie d'aller plus loin en optimisant le numérique pour les personnes âgées qui auraient différents types de pathologies : 
+          Alzheimer, Parkinson, Démences, des troubles physiques et/ou mentaux. Et j'aimerais qu'ils puissenet être accompagnés de façon ludique à travers l'utilisation de la réalité virtuelle.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    Voici quelques exemples de domaines : 
+
+    <div class="grid">
+      <div class="card1">
+        Cognitif
+        <br>
+        La réalité virtuelle peut être utilisée pour des jeux ou des exercices cognitifs permettant de stimuler la mémoire à court et long terme. 
+        Cela est particulièrement bénéfique pour les patients atteints de démence ou de la maladie d'Alzheimer.
+
+
+      </div>
+
+      <div class="card2">
+        Physique
+        <br>
+        La réalité virtuelle peut être utilisée pour proposer des exercices de rééducation adaptés, visant à améliorer la motricité, la coordination et l'équilibre. 
+        Les patients peuvent effectuer des mouvements dans un environnement virtuel, ce qui peut rendre la rééducation plus engageante et motivante.
+
+      </div>
+
+      <div class="card3">
+        <img src="medium-shot-man-woman-with-devices.jpg">
+        Social
+        <br>
+        La réalité virtuelle peut offrir aux patients âgés un moyen d'interagir socialement dans un environnement virtuel. 
+        Par exemple, des expériences de groupe (jeux collaboratifs, visites virtuelles en groupe) peuvent créer un sentiment de communauté et réduire l'isolement.
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Mon Projet</strong> par <a href="#">Angela RHIN</a>. Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+  </body>
 </html>
