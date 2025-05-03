@@ -62,5 +62,39 @@ Faciliter l'accès à des outils de réhabilitation cognitive et physique à tra
 
 ---
 
+## 🧪 Prototype Terminal – `session-vr-terminal`
+
+Ce dossier contient une version autonome en **langage C** de l'application, fonctionnant exclusivement dans le **terminal**. Il sert de **preuve de concept** pour la gestion des utilisateurs, des sessions VR et de l’historique, sans interface graphique ni base de données web.
+
+### 🎮 Fonctionnalités incluses
+- Création de profils utilisateurs avec enregistrement dans un fichier `.csv`
+- Menu interactif pour :
+  - Créer un utilisateur
+  - Démarrer une session
+  - Afficher l'historique des sessions
+- Sauvegarde des données dans le dossier `data/`
+
+### 🧱 Structure du dossier
+```
+session-vr-terminal/
+├── src/           → Code source en C
+├── include/       → Fichiers d'en-tête .h
+├── data/          → Fichiers CSV utilisateurs & sessions
+├── docs/          → Documentation technique & planning
+├── scripts/       → Scripts shell utilitaires
+├── Makefile       → Fichier de compilation
+└── bin/           → (Optionnel) Dossier pour l'exécutable compilé
+```
+
+### 🔧 Compilation
+Depuis le dossier `session-vr-terminal`, utilise la commande suivante pour compiler :
+```bash
+make
+```
+Puis exécute le programme : 
+```bash
+./bin/session_vr
+```
+
 ## 👩‍💻 Auteur
 **Angela RHIN** - Projet professionnel visant à améliorer les outils thérapeutiques pour les patients âgés.  
